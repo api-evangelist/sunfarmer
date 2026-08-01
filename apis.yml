@@ -1,7 +1,24 @@
 aid: sunfarmer
-name: Sunfarmer
-description: Sunfarmer is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sunfarmer.png
+name: SunFarmer
+description: SunFarmer is a solar energy company operating primarily in Nepal that designs, installs,
+  finances, and services solar power systems for health facilities, schools, agriculture, and businesses.
+  Its mission is to make reliable solar energy affordable across underserved communities, powering water
+  pumping, clinics, and irrigation. SunFarmer reports over 3.2 million cubic meters of water pumped, 1.5+
+  million units of clean electricity generated, and nearly 1.8 million kilograms of CO2 offset. It offers
+  a "Get Solar" customer path and a "Give Solar" donation program. It is a direct-to-customer solar
+  services and social-impact provider with no public developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/sunfarmer/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Solar Energy
+- Renewable Energy
+- Clean Energy
+- Agriculture
+- Water Pumping
+- Nepal
+- Social Impact
 apis: []
+common:
+- type: Website
+  url: https://sunfarmer.org
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
